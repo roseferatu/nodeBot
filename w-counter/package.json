@@ -1,0 +1,24 @@
+{
+  "name": "w-counter-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that counts 'W' mentions with animated mascot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start-bot.js",
+    "deploy": "node deploy-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "counter",
+    "mascot",
+    "animation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
